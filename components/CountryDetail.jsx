@@ -12,8 +12,6 @@ export default function CountryDetail() {
   const [countryNotFound, setCountryNotFound] = useState(false);
   const [isDark] = useTheme();
 
-  console.log(isDark);
-
   function updateBorders(data) {
     Promise.all(
       data.borders.map(async (border) => {

@@ -19,7 +19,7 @@ export default function CountriesList({ query }) {
     // console.log(intervalId);
 
     return () => {
-      console.log("Component Unmount Clean Up");
+      // console.log("Component Unmount Clean Up");
     };
   }, []);
 
